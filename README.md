@@ -15,3 +15,4 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 * Apply NACLs and Security Groups with least privilege.
 
+<img width="1532" height="556" alt="VPC" src="https://github.com/user-attachments/assets/c0ec770f-97f2-4422-95d3-9a352a261b37" />
