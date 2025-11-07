@@ -1,2 +1,5 @@
-# Secure-Scalable-and-Compliant-AWS-Infrastructure
-This repository contains the details to design and implement a multi-region AWS infrastructure that ensures security, scalability, compliance, and cost-efficiency while maintaining full observability.
+Secure, Scalable, Cost-Optimized, and Compliant AWS Web Application
+
+Objective
+
+Design and deploy a multi-region, secure, compliant, and cost-optimized AWS web application with full observability and resilience.
