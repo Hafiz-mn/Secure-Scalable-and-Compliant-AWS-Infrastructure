@@ -1,6 +1,8 @@
-# Secure, Scalable, Cost-Optimized, and Compliant AWS Web Application
+# Secure, Scalable, Cost-Optimized, and Compliant AWS Infrastructure
 
 
 ## Objective
 
-Design and deploy a multi-region, secure, compliant, and cost-optimized AWS web application with full observability and resilience.
+To design and implement a multi-region AWS infrastructure that ensures security, scalability, compliance, and cost-efficiency while maintaining full observability.
+
+
