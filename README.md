@@ -15,6 +15,8 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 
 * Attach Internet Gateway (public) and NAT Gateway (private).<br>
+
+
 <img width="1612" height="459" alt="Internet Gateway" src="https://github.com/user-attachments/assets/73e62ecd-10cc-43d3-9251-d176bdfe0876" /><br>
 
 
