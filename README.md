@@ -42,7 +42,9 @@ Design and implement a multi-region AWS infrastructure that ensures:
 <p align="center">
 <img width="700" height="583" alt="NACL" src="https://github.com/user-attachments/assets/a18bce8e-2a5b-4f3e-b1ae-72de002ea229" /><br>
 
+</p>
 
+<p align="center">
 <img width="700" height="372" alt="part2" src="https://github.com/user-attachments/assets/e73cc4ce-3e76-48dc-b8f6-c8a4e6d43838" /><br>
 
 
