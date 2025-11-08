@@ -27,6 +27,8 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 <img width="1594" height="649" alt="NAT Gateway" src="https://github.com/user-attachments/assets/782aa34f-9af4-4f0b-8f73-17ca45240238" />
 
+### 
+
 * Enable VPC Flow Logs and CloudWatch logging for audits in the VPC settings.<br>
 
 <img width="1900" height="804" alt="Flow LOG" src="https://github.com/user-attachments/assets/f085d45d-a6f9-43e0-987b-f79cb8a17490" />
