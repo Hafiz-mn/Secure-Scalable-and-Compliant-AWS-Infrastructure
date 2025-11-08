@@ -6,7 +6,7 @@
 To design and implement a multi-region AWS infrastructure that ensures security, scalability, compliance, and cost-efficiency while maintaining full observability.
 
 
-### Step-1   Networking and Security
+### Step-1: Networking and Security
 * Create VPC with public and private subnets across 2 AZs.For this VPC 2 public and 2 private subnets were created
 <p align="center">
 <img width="700" height="556" alt="VPC" src="https://github.com/user-attachments/assets/c0ec770f-97f2-4422-95d3-9a352a261b37" /><br>
@@ -46,7 +46,7 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 <img width="700" height="336" alt="part3" src="https://github.com/user-attachments/assets/aec6368e-1b10-47ff-a161-0c23e4cca85d" /><br>
 </p>
 
-### Step-2   Identity & Access Management
+### Step-2: Identity & Access Management
  Here we implement secure identity and access practices for compliance.
 
 * Created IAM users, groups, and roles following the least privilege principle.
@@ -70,3 +70,32 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 <img width="700" height="763" alt="auditor_permission" src="https://github.com/user-attachments/assets/507d7aa5-5df0-41e6-9aa2-994b469cd84b" />
 </p>
 
+### Step-3: Secure Application Deployment (EC2 + ALB)
+* Deployed EC2 instances in multiple AZs behind an Application Load Balancer (ALB) with the instances as the Target Groups.
+  
+<p align="center">
+<img width="700" height="749" alt="Instances" src="https://github.com/user-attachments/assets/4cccb397-8e7b-4aa8-8c16-9b13a5d05d83" />
+ 
+<img width="1580" height="722" alt="Load Balan_1" src="https://github.com/user-attachments/assets/16041298-26ce-4a33-9a4b-d2495dc767c7" />
+</p>
+
+* Configured Auto Scaling Group for resilience (min=2, max=5)
+<p align="center">
+<img width="700" height="746" alt="Autoscaling" src="https://github.com/user-attachments/assets/60a3b68e-b546-4d7d-aa38-2fa336c49888" />
+</p>
+
+* Enabled CloudWatch Alarms for CPU and latency monitoring.
+<p align="center">
+<img width="700" height="600" alt="Error_Connection" src="https://github.com/user-attachments/assets/830b7009-6f41-4495-836d-ec9464dacbe6" />
+<img width="700" height="593" alt="cpu alarm" src="https://github.com/user-attachments/assets/59e8bf8d-7a30-494c-850a-5c10c9e0b39a" />
+<img width="700" height="599" alt="cpu alaram part 2" src="https://github.com/user-attachments/assets/342757ed-0502-45fc-b496-0bf45873543e" />
+<img width="700" height="540" alt="Alarms" src="https://github.com/user-attachments/assets/0b37cbe0-4b4f-477b-a787-57fd066d87fa" />
+</p>
+
+* Attached IAM roles and KMS encryption for EC2 volumes.
+<img width="700" height="804" alt="Encrypted volume" src="https://github.com/user-attachments/assets/b1ec19fc-fe20-41db-a9ad-b2cef1b91707" />
+
+<img width="700" height="809" alt="KMS" src="https://github.com/user-attachments/assets/db58e303-3da3-4966-ae91-cc9dba454ec3" />
+
+
+<img width="700" height="747" alt="kms policy" src="https://github.com/user-attachments/assets/21a8f475-b675-4430-9190-6df53ee66061" />
