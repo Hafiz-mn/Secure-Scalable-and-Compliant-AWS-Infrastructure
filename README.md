@@ -27,7 +27,6 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 <p align="center">
 <img width="700" height="649" alt="NAT Gateway" src="https://github.com/user-attachments/assets/782aa34f-9af4-4f0b-8f73-17ca45240238" />
 </p>
-### 
 
 * Enable VPC Flow Logs and CloudWatch logging for audits in the VPC settings.<br>
 <p align="center">
@@ -50,17 +49,22 @@ To design and implement a multi-region AWS infrastructure that ensures security,
  Here we implement secure identity and access practices for compliance.
 
 * Created IAM users, groups, and roles following the least privilege principle.
-  ###
+  
 <p align="center">  
 <img width="700" height="370" alt="Iam_groups" src="https://github.com/user-attachments/assets/92e6453d-135d-444a-92b5-13fcf16f4dab" />
 <img width="700" height="578" alt="IAM USERS" src="https://github.com/user-attachments/assets/62c8686d-48b0-4311-9119-9227e0063330" />
 </p>
 
 * Then enforced MFA for IAM users for extra security.
-  ###
+ 
   <img width="700" height="393" alt="MFA" src="https://github.com/user-attachments/assets/a415d872-ee47-4ddd-8ca6-a0711a28a56c" />
 
 * Implemented role-based access control (RBAC) for developers, ops, and auditors.
 
+<p align="center">
+<img width="700" height="733" alt="Devloper_permission" src="https://github.com/user-attachments/assets/e57ee76b-2164-4170-93ca-669d4939c854" />
 
+<img width="700" height="753" alt="DevOps_permission" src="https://github.com/user-attachments/assets/66935a1b-0c5f-4d57-9615-b7a9b47f616f" />
 
+<img width="700" height="763" alt="auditor_permission" src="https://github.com/user-attachments/assets/507d7aa5-5df0-41e6-9aa2-994b469cd84b" />
+</p>
