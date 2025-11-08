@@ -24,20 +24,20 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 
 
-
+<p align="center">
 <img width="700" height="649" alt="NAT Gateway" src="https://github.com/user-attachments/assets/782aa34f-9af4-4f0b-8f73-17ca45240238" />
-
+</p>
 ### 
 
 * Enable VPC Flow Logs and CloudWatch logging for audits in the VPC settings.<br>
-
+<p align="center">
 <img width="700" height="804" alt="Flow LOG" src="https://github.com/user-attachments/assets/f085d45d-a6f9-43e0-987b-f79cb8a17490" />
-
+</p>
 ###
 
 * Apply NACLs and Security Groups with least privilege.<br>
 
-
+<p align="center">
 <img width="700" height="583" alt="NACL" src="https://github.com/user-attachments/assets/a18bce8e-2a5b-4f3e-b1ae-72de002ea229" /><br>
 
 
@@ -45,7 +45,7 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 
 <img width="700" height="336" alt="part3" src="https://github.com/user-attachments/assets/aec6368e-1b10-47ff-a161-0c23e4cca85d" /><br>
-
+</p>
 ### Step-2   Identity & Access Management
  Here we implement secure identity and access practices for compliance.
 
