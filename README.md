@@ -50,9 +50,13 @@ To design and implement a multi-region AWS infrastructure that ensures security,
  Here we implement secure identity and access practices for compliance.
 
 * Created IAM users, groups, and roles following the least privilege principle.
+  ###
   <img width="1449" height="578" alt="IAM USERS" src="https://github.com/user-attachments/assets/62c8686d-48b0-4311-9119-9227e0063330" />
 
-* Then enforced MFA for IAM users.
+* Then enforced MFA for IAM users for extra security.
+  ###
+  <img width="700" height="393" alt="MFA" src="https://github.com/user-attachments/assets/a415d872-ee47-4ddd-8ca6-a0711a28a56c" />
+
 * Implemented role-based access control (RBAC) for developers, ops, and auditors.
 
 
