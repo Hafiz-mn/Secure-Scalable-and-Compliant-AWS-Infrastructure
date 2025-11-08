@@ -63,8 +63,9 @@ Design and implement a multi-region AWS infrastructure that ensures:
 </p>
 
 * Enforced MFA, RBAC, and custom policies for privilege control.
- 
-  <img width="700" height="393" alt="MFA" src="https://github.com/user-attachments/assets/a415d872-ee47-4ddd-8ca6-a0711a28a56c" />
+<p align="center">
+<img width="700" height="393" alt="MFA" src="https://github.com/user-attachments/assets/a415d872-ee47-4ddd-8ca6-a0711a28a56c" />
+</p>
 
 * Implemented role-based access control (RBAC) for developers, ops, and auditors.
 
@@ -82,7 +83,7 @@ Design and implement a multi-region AWS infrastructure that ensures:
 <p align="center">
 <img width="700" height="749" alt="Instances" src="https://github.com/user-attachments/assets/4cccb397-8e7b-4aa8-8c16-9b13a5d05d83" />
  
-<img width="1580" height="722" alt="Load Balan_1" src="https://github.com/user-attachments/assets/16041298-26ce-4a33-9a4b-d2495dc767c7" />
+<img width="700" height="722" alt="Load Balan_1" src="https://github.com/user-attachments/assets/16041298-26ce-4a33-9a4b-d2495dc767c7" />
 </p>
 
 * Configured Auto Scaling Group (min=2, max=5) for elasticity.
