@@ -8,15 +8,15 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 ### Step-1   Networking and Security
 * Create VPC with public and private subnets across 2 AZs.For this VPC 2 public and 2 private subnets were created
-  
+<p align="center">
 <img width="700" height="556" alt="VPC" src="https://github.com/user-attachments/assets/c0ec770f-97f2-4422-95d3-9a352a261b37" /><br>
-
+</p>
 
 * Attach Internet Gateway (public) and NAT Gateway (private).<br>
 
-
+<p align="center">
 <img width="700" height="459" alt="Internet Gateway" src="https://github.com/user-attachments/assets/73e62ecd-10cc-43d3-9251-d176bdfe0876" /><br>
-
+</p>
 
 
 
