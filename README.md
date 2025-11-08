@@ -114,10 +114,10 @@ Here We configure Amazon S3 to securely store application static assets and back
 * Enabled CloudTrail and Macie for auditing and sensitive data detection.
   
 <p align="center">
-<img width="1909" height="818" alt="part3" src="https://github.com/user-attachments/assets/795817bd-b36d-4a59-aefd-1e2197f18414" />
-<img width="1880" height="816" alt="part2" src="https://github.com/user-attachments/assets/5262cb9d-34ce-417a-8e94-89eeb7f53c5f" />
-<img width="1910" height="621" alt="part 1" src="https://github.com/user-attachments/assets/a30cf9ae-ce8e-4b0f-8290-7cb50258dca7" />
-<img width="1907" height="804" alt="part4" src="https://github.com/user-attachments/assets/3d140f51-0025-424c-b4df-710ec60306dc" />
+<img width="700" height="818" alt="part3" src="https://github.com/user-attachments/assets/795817bd-b36d-4a59-aefd-1e2197f18414" />
+<img width="700" height="816" alt="part2" src="https://github.com/user-attachments/assets/5262cb9d-34ce-417a-8e94-89eeb7f53c5f" />
+<img width="700" height="621" alt="part 1" src="https://github.com/user-attachments/assets/a30cf9ae-ce8e-4b0f-8290-7cb50258dca7" />
+<img width="700" height="804" alt="part4" src="https://github.com/user-attachments/assets/3d140f51-0025-424c-b4df-710ec60306dc" />
 </p>
 
 ### Step-5: Global Traffic & High Availability
@@ -125,24 +125,24 @@ Here We configure Amazon S3 to securely store application static assets and back
   
 * Configured Route 53 latency-based routing + failover policy for intelligent DNS response.
 <p align="center">
-<img width="1503" height="747" alt="latency record 1" src="https://github.com/user-attachments/assets/7016fe32-ccb6-4796-89aa-da97220593a4" />
-<img width="1901" height="808" alt="hosted zone" src="https://github.com/user-attachments/assets/d422c533-2c72-43e8-8011-964313f68659" />
-<img width="1523" height="681" alt="latency record 2" src="https://github.com/user-attachments/assets/04005929-8722-4546-8c1b-f44c1b3a3139" />
+<img width="700" height="747" alt="latency record 1" src="https://github.com/user-attachments/assets/7016fe32-ccb6-4796-89aa-da97220593a4" />
+<img width="700" height="808" alt="hosted zone" src="https://github.com/user-attachments/assets/d422c533-2c72-43e8-8011-964313f68659" />
+<img width="700" height="681" alt="latency record 2" src="https://github.com/user-attachments/assets/04005929-8722-4546-8c1b-f44c1b3a3139" />
 </p>
 
 * Integrated CloudFront CDN + AWS WAF for security and global caching.
 <p align="center">
-<img width="1917" height="375" alt="cloudfront" src="https://github.com/user-attachments/assets/44455855-73db-4808-ad07-1563e602c625" />
+<img width="700" height="375" alt="cloudfront" src="https://github.com/user-attachments/assets/44455855-73db-4808-ad07-1563e602c625" />
 
-<img width="1899" height="535" alt="waf" src="https://github.com/user-attachments/assets/28bcd9f1-9dc5-4b6c-a9ce-aa19710899e6" />
+<img width="700" height="535" alt="waf" src="https://github.com/user-attachments/assets/28bcd9f1-9dc5-4b6c-a9ce-aa19710899e6" />
 </p>
 ### Step-6: Monitoring, Logging & Audit Trails
 * Enabled AWS CloudTrail, GuardDuty, and Security Hub for centralized threat visibility.
 * Integrated logs with CloudWatch Metrics and custom alerts
 <p align="center">
-<img width="1850" height="796" alt="Guardduty" src="https://github.com/user-attachments/assets/d0fc3210-eb7c-4cd5-a810-b20cf9fd664e" />
+<img width="700" height="796" alt="Guardduty" src="https://github.com/user-attachments/assets/d0fc3210-eb7c-4cd5-a810-b20cf9fd664e" />
 
-<img width="1864" height="654" alt="cloudtrail events" src="https://github.com/user-attachments/assets/33276163-52bb-48c9-bb03-c933be5a989f" />
-<img width="1886" height="496" alt="cloudtrail" src="https://github.com/user-attachments/assets/f248641b-659a-4ee0-ac5a-f19798eded5d" />
+<img width="700" height="654" alt="cloudtrail events" src="https://github.com/user-attachments/assets/33276163-52bb-48c9-bb03-c933be5a989f" />
+<img width="700" height="496" alt="cloudtrail" src="https://github.com/user-attachments/assets/f248641b-659a-4ee0-ac5a-f19798eded5d" />
 </p>
 
