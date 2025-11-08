@@ -108,6 +108,7 @@ Design and implement a multi-region AWS infrastructure that ensures:
 
 <img width="700" height="747" alt="kms policy" src="https://github.com/user-attachments/assets/21a8f475-b675-4430-9190-6df53ee66061" />
 </p>
+
 ### Step-4: S3 & Storage Compliance
 Here We configure Amazon S3 to securely store application static assets and backups while ensuring compliance with data protection standards.
 
