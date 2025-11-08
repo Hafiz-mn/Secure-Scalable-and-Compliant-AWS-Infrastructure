@@ -46,8 +46,10 @@ Design and implement a multi-region AWS infrastructure that ensures:
 
 <p align="center">
 <img width="700" height="372" alt="part2" src="https://github.com/user-attachments/assets/e73cc4ce-3e76-48dc-b8f6-c8a4e6d43838" /><br>
+</p>
 
 
+<p align="center">
 <img width="700" height="336" alt="part3" src="https://github.com/user-attachments/assets/aec6368e-1b10-47ff-a161-0c23e4cca85d" /><br>
 </p>
 
