@@ -36,7 +36,6 @@ Design and implement a multi-region AWS infrastructure that ensures:
 <p align="center">
 <img width="700" height="804" alt="Flow LOG" src="https://github.com/user-attachments/assets/f085d45d-a6f9-43e0-987b-f79cb8a17490" />
 </p>
-###
 
 * Access Control: Applied NACLs and Security Groups with least privilege principle.
 
@@ -136,6 +135,7 @@ Here We configure Amazon S3 to securely store application static assets and back
 
 <img width="700" height="535" alt="waf" src="https://github.com/user-attachments/assets/28bcd9f1-9dc5-4b6c-a9ce-aa19710899e6" />
 </p>
+
 ### Step-6: Monitoring, Logging & Audit Trails
 * Enabled AWS CloudTrail, GuardDuty, and Security Hub for centralized threat visibility.
 * Integrated logs with CloudWatch Metrics and custom alerts
