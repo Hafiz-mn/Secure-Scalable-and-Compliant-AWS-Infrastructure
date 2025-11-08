@@ -51,7 +51,7 @@ To design and implement a multi-region AWS infrastructure that ensures security,
 
 * Created IAM users, groups, and roles following the least privilege principle.
   ###
-  <img width="1449" height="578" alt="IAM USERS" src="https://github.com/user-attachments/assets/62c8686d-48b0-4311-9119-9227e0063330" />
+<img width="700" height="370" alt="Iam_groups" src="https://github.com/user-attachments/assets/92e6453d-135d-444a-92b5-13fcf16f4dab" />|<img width="700" height="578" alt="IAM USERS" src="https://github.com/user-attachments/assets/62c8686d-48b0-4311-9119-9227e0063330" />
 
 * Then enforced MFA for IAM users for extra security.
   ###
